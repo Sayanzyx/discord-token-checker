@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de tokens do Discord</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-box">
+        <h1>Verificador de tokens</h1>
+        <textarea
+          placeholder="Forneça seus tokens separados por quebras de linha."
+        ></textarea>
+        <button onclick="verifyTokens();">Verificar</button>
+      </div>
+      <div class="verified-list">
+        <div class="success">
+          <h4 class="success-heading">Sucesso:</h4>
+          <div class="success-box"></div>
+        </div>
+        <div class="failed">
+          <h4 class="failed-heading">Falhou:</h4>
+          <div class="failed-box"></div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="footer">By Sayan</footer>
+  </body>
+</html>
